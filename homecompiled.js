@@ -73,7 +73,7 @@ function _wrapComponent(id) {
 }
 
 var React = require('react');
-var styles = require('styles.js');
+var styles = require('./styles.js');
 var h1Style = {
   color: styles.color,
   fontSize: styles.fontSize,
@@ -128,8 +128,8 @@ function _wrapComponent(id) {
 
 var React = require('react');
 var ReactDOM = require('react-dom');
-var AttentionGrabber = require('AttentionGrabber');
-var styles = require('styles.js');
+var AttentionGrabber = require('./AttentionGrabber');
+var styles = require('./styles.js');
 var divStyle = {
   background: styles.background,
   height: '100%'
